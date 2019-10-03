@@ -7,8 +7,8 @@ body{
 h1{
     color: #1a3e59;
     letter-spacing: 2px;
-    font-size:26px ;
-    font-weight: 700;
+    font-size:40px ;
+    font-weight: bolder;
     text-transform: uppercase;
     font-family: 'Kaushan Script', cursive;}
 	
@@ -35,7 +35,7 @@ a:hover{
 	margin: 50px;
 	padding: 60px;
 	background: rgb(230,230,230);
-	border-radius: 80px;  
+	border-radius: 100px;  
 	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 	width: 800px
 	height: 700px;
@@ -45,21 +45,29 @@ a:hover{
 	margin: 50px;
 	padding: 60px;
 	background: rgb(230,230,230);
-	border-radius: 80px;  
+	border-radius: 100px;  
 	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 	width: 600px
 	height: 400px;	
 	text-align: center;
 }
-@media( max-width: 760px){
+@media( max-width: 960px){
 	.container{
-		width: 560px
+		width: 700px
 	}
 	#introduction{
-		width: 560px
+		width: 700px
 	}
 }
-@media( max-width: 500px){
+@media( max-width: 720px){
+	.container{
+		width: 500px
+	}
+	#introduction{
+		width: 500px
+	}
+}
+@media( max-width: 540px){
 	.container{
 		width: 400px;}
 	#introduction{
@@ -97,10 +105,10 @@ a:hover{
 }
 .list-inline{
 	list-style: none;
-	padding-left: 0px;
+	padding: 10px 10px;
 }
 .list-inline li{
 	display: inline;
-	padding: 10px;
+	padding: 10px 10px;
 }
 
